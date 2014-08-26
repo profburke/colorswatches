@@ -19,9 +19,9 @@ dependencies = {
 build = {
    type = 'builtin',
    modules = {
-      colors = 'src/colorswatches.lua',
-      ['colors.css'] = 'src/colorswatches/css.lua',
-      ['colors.x11'] = 'src/colorswatches/x11.lua',
+      colorswatches = 'src/colorswatches.lua',
+      ['colorswatches.css'] = 'src/colorswatches/css.lua',
+      ['colorswatches.x11'] = 'src/colorswatches/x11.lua',
    },
    copy_directories = { 'doc' },
 }
