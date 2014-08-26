@@ -1,5 +1,5 @@
 --- Provides a collection of CSS color names and their RGB values.
--- For more details, see the documentation for `colors`.
+-- For more details, see the documentation for `colorswatches`.
 --
 -- @module colorswatches.css
 --
