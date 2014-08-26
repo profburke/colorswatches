@@ -1,10 +1,10 @@
 --- Provides a collection of X11 color names and their RGB values.
 -- For more details, see the documentation for `colors`.
 --
--- @module colors.x11
+-- @module colorswatches.x11
 --
 -- @usage
--- x11_colors = require 'colors.x11'
+-- x11_colors = require 'colorswatches.x11'
 --
 --
 -- -- print out the names and RGB values
@@ -23,7 +23,7 @@
 --
 
 
-local colors = require 'colors'
+local colors = require 'colorswatches'
 colors.x11 = {}
 local x11_colors = colors.x11
 

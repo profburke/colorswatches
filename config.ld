@@ -1,11 +1,11 @@
 -- ldoc configuration
-title = 'Colors docs'
-project = 'colors'
+title = 'Colorswatches docs'
+project = 'colorswatches'
 readme = {'README.md', 'LICENSE'}
 format = 'markdown'
 description = [[
 
-## Colors
+## Colorswatches
 
 Various collections of color names and their RGB values. 
 

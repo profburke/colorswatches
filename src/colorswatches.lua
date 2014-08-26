@@ -1,10 +1,10 @@
 --- Provides a collection of basic color names and their RGB values.
 -- Plus a function for creating new color objects.
 --
--- Colors provides a collection of RGB values keyed by color name.
+-- Colorswatches provides a collection of RGB values keyed by color name.
 -- Specialized collections of color names are provided as submodules.
 --
--- @module colors
+-- @module colorswatches
 -- @author Matthew M. Burke
 -- @copyright 2005-2014
 -- @license MIT (see LICENSE file)

@@ -1,10 +1,10 @@
 --- Provides a collection of CSS color names and their RGB values.
 -- For more details, see the documentation for `colors`.
 --
--- @module colors.css
+-- @module colorswatches.css
 --
 -- @usage
--- css_colors = require 'colors.css'
+-- css_colors = require 'colorswatches.css'
 --
 --
 -- -- print out the names and RGB values
@@ -23,7 +23,7 @@
 --
 
 
-local colors = require 'colors'
+local colors = require 'colorswatches'
 colors.css = {}
 local css_colors = colors.css
 
