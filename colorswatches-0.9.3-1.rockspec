@@ -1,8 +1,8 @@
 package = 'colorswatches'
-version = '0.9.2-1'
+version = '0.9.3-1'
 source = {
    url = 'git://github.com/profburke/colorswatches',
-   tag = 'v0.9.2'
+   tag = 'v0.9.3'
 }
 description = {
    summary = 'A simple library providing a collection of color names and their RGB values.',
