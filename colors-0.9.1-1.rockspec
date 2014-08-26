@@ -1,7 +1,8 @@
 package = 'colors'
 version = '0.9.1-1'
 source = {
-   url = 'git://github.com/profburke/colors'
+   url = 'git://github.com/profburke/colors',
+   tag = 'v0.9.1'
 }
 description = {
    summary = 'A simple library providing a collection of color names and their RGB values.',
