@@ -36,7 +36,7 @@ your Lua library (`/usr/local/share/lua/5.2` or similar). Alternatively, you can
 
 More documentation (than this dirt simple library requires) can be found in the `doc` subdirectory.
 
-The best way to contact me regarding this library is to post an issue at the [github repository](http://github.com/profburke/FILL-THIS-IN).
+The best way to contact me regarding this library is to post an issue at the [github repository](https://github.com/profburke/colors/issues).
 
 
 ## License
