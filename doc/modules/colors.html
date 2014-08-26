@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Colors docs</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>colors</h1>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+<li><a href="#Class_Color">Class Color </a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/colors.css.html">colors.css</a></li>
+  <li><a href="../modules/colors.x11.html">colors.x11</a></li>
+  <li><strong>colors</strong></li>
+</ul>
+<h2>Topics</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../topics/README.md.html">README</a></li>
+  <li><a href="../topics/LICENSE.html">LICENSE</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>colors</code></h1>
+<p>Provides a collection of basic color names and their RGB values.</p>
+<p> Plus a function for creating new color objects.</p>
+
+<p> Colors provides a collection of RGB values keyed by color name.
+ Specialized collections of color names are provided as submodules.</p>
+    <h3>Info:</h3>
+    <ul>
+        <li><strong>Copyright</strong>: 2005-2014</li>
+        <li><strong>License</strong>: MIT (see LICENSE file)</li>
+        <li><strong>Author</strong>: Matthew M. Burke</li>
+    </ul>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#new">new (n, r, g, b)</a></td>
+	<td class="summary">Creates a new color object.</td>
+	</tr>
+</table>
+<h2><a href="#Class_Color">Class Color </a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#Color:__tostring">Color:__tostring ()</a></td>
+	<td class="summary">Returns a string representation of the color including both its name and
+ its RGB values.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Color:rgb">Color:rgb ()</a></td>
+	<td class="summary">Returns the RGB values of the color.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Functions"></a>Functions</h2>
+    <dl class="function">
+    <dt>
+    <a name = "new"></a>
+    <strong>new (n, r, g, b)</strong>
+    </dt>
+    <dd>
+    Creates a new color object.  This object
+ has fields <em>name</em>, <em>r</em>, <em>g</em>, and <em>b</em>.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">n</span>
+            <span class="types"><a class="type" href="http://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         name of the color
+        </li>
+        <li><span class="parameter">r</span>
+            <span class="types"><span class="type">int</span></span>
+         red value of the color (0-255)
+        </li>
+        <li><span class="parameter">g</span>
+            <span class="types"><span class="type">int</span></span>
+         green value of the color (0-255)
+        </li>
+        <li><span class="parameter">b</span>
+            <span class="types"><span class="type">int</span></span>
+         blue value of the color (0-255)
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../modules/colors.html#Color">Color</a></span>
+        a table representing the color.
+    </ol>
+
+
+
+
+</dd>
+</dl>
+    <h2><a name="Class_Color"></a>Class Color </h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "Color:__tostring"></a>
+    <strong>Color:__tostring ()</strong>
+    </dt>
+    <dd>
+    Returns a string representation of the color including both its name and
+ its RGB values.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="http://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+        the string representation of the color.
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Color:rgb"></a>
+    <strong>Color:rgb ()</strong>
+    </dt>
+    <dd>
+    Returns the RGB values of the color.  They are returned as three separate values.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+        <li>
+           <span class="types"><span class="type">int</span></span>
+        red value (0-255)</li>
+        <li>
+           <span class="types"><span class="type">int</span></span>
+        green (0-255)</li>
+        <li>
+           <span class="types"><span class="type">int</span></span>
+        blue (0-255)</li>
+    </ol>
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.2</a></i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>
