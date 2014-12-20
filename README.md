@@ -29,7 +29,7 @@ The library was developed and tested using [Lua](http://lua.org) 5.2.3. However 
 If you have downloaded the github repository, you can install the library by copying the files in the `src` subdirectory to
 your Lua library (`/usr/local/share/lua/5.2` or similar). Alternatively, you can install it via [luarocks](http://luarocks.org/)
 
-    luarocks install colors
+    luarocks install colorswatches
 
 
 ## Documentation and Contact Information
