@@ -41,7 +41,7 @@ The best way to contact me regarding this library is to post an issue at the [gi
 
 ## License
 
-Colorswatches is free software distributed under the terms of the MIT license. It may be used for any purpose, including commercial purposes, at absolutely no cost without having to ask us. The only requirement is that if you do use Lblink, then you should give us credit by including the appropriate copyright notice somewhere in your product or its documentation. For details, see `LICENSE`.
+Colorswatches is free software distributed under the terms of the MIT license. It may be used for any purpose, including commercial purposes, at absolutely no cost without having to ask us. The only requirement is that if you do use Colorswatches, then you should give us credit by including the appropriate copyright notice somewhere in your product or its documentation. For details, see `LICENSE`.
 
 
 
